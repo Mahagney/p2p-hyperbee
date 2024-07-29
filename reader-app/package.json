@@ -1,0 +1,25 @@
+{
+  "name": "reader-app",
+  "main": "index.js",
+  "type": "module",
+  "pear": {
+    "name": "reader-app",
+    "type": "terminal"
+  },
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "brittle": "^3.0.0"
+  },
+  "scripts": {
+    "dev": "pear dev",
+    "test": "brittle test/*.test.js"
+  },
+  "dependencies": {
+    "bare-path": "^2.1.3",
+    "bare-pipe": "^3.3.2",
+    "corestore": "^6.18.3",
+    "hyperbee": "^2.20.0",
+    "hypercore": "^10.37.13",
+    "hyperswarm": "^4.8.1"
+  }
+}
